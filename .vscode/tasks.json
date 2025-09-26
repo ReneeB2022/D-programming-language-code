@@ -1,1 +1,35 @@
-
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dub",
+			"run": true,
+			"cwd": "c:/Users/laptop0001/OneDrive/Desktop/Project -PL",
+			"compiler": "$current",
+			"archType": "$current",
+			"buildType": "$current",
+			"configuration": "$current",
+			"problemMatcher": [
+				"$dmd"
+			],
+			"group": "build",
+			"label": "dub: Run project-p-l",
+			"detail": "dub run --compiler=dmd.EXE -a=x86_64 -b=debug -c=application"
+		},
+		{
+			"type": "dub",
+			"run": false,
+			"cwd": "c:/Users/laptop0001/OneDrive/Desktop/Project -PL",
+			"compiler": "$current",
+			"archType": "$current",
+			"buildType": "$current",
+			"configuration": "$current",
+			"problemMatcher": [
+				"$dmd"
+			],
+			"group": "build",
+			"label": "dub: Build project-p-l",
+			"detail": "dub build --compiler=dmd.EXE -a=x86_64 -b=debug -c=application"
+		}
+	]
+}
